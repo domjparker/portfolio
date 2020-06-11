@@ -3,17 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>About Me</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"/>
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Cedarville+Cursive&family=Cutive+Mono&family=Jost&family=Montserrat:wght@300&family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  
+
   <body>
-
-
     
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-md navbar-custom">
+      <!-- container for both navbar-brand and navbar-nav -->
+      <div class="container ml-auto">
+        <!-- navbar-brand -->
+        <span class="navbar-brand mx-0">Dominic Parker</span>
+        <!-- navbar-nav -->
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="index.html"
+              >About<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- content container-->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-10">
+          
+          <!-- About Me Card -->
+          <section class="card section">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 class="card-title">About Me</h2>
+                </div>
+                <div class="row px-3">
+                  <div class="col-md-12">
+                    <img class="img-fluid profileimage float-left mr-4 mb-2" src="/Assets/Images/profileimage.jpg"
+                      alt="image of Dominic Parker"/>
+                    <p class="card-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+                      vel eveniet accusamus quaerat adipisci iure est, quod quisquam
+                      similique perspiciatis? Quae odit aliquid sunt laborum
+                      repudiandae ducimus, voluptatibus vero. Maiores! Lorem ipsum
+                      dolor sit amet consectetur adipisicing elit. Deserunt voluptas
+                      labore id illo ipsa impedit laborum quod dolorum consequatur
+                      animi porro ratione necessitatibus, culpa ex possimus cumque.
+                      Odio, modi molestiae? Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Necessitatibus blanditiis similique numquam
+                      error et recusandae, nulla dolorum nesciunt assumenda
+                      quibusdam eveniet provident repellendus accusamus totam
+                      deleniti. Pariatur iusto dolor nisi. Lorem ipsum dolor sit
+                      amet consectetur adipisicing elit. Consequuntur minima illum
+                      inventore, tempora quasi, dignissimos doloribus hic impedit
+                      asperiores rem, vitae reprehenderit facere dolorem nihil
+                      voluptates harum voluptas officia nobis. Lorem ipsum dolor sit
+                      amet consectetur adipisicing elit. Explicabo, quam, officiis
+                      magni cupiditate esse aperiam veniam recusandae optio
+                      voluptatum dolores autem id odio reprehenderit reiciendis
+                      debitis amet. Culpa, modi dignissimos!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="py-4 footer-custom">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="container">
+          <p class="m-0 text-center small">© Copyright</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

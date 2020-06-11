@@ -41,15 +41,21 @@ body {
   color: #a6c3e1;
 }
 
-/* About Me section */
+/* About Page/About Me section */
 .section {
-  background-color: #eae6f4;
+  background-color: #dfe8f1;
   color: #223843;
   font-size: large;
 }
 
 .profileimage {
   max-width: 40%;
+}
+
+/* Contact Page/Contact section */
+.btn-custom {
+  background-color: #223843;
+  color: #eae6f4;
 }
 
 /* footer */
