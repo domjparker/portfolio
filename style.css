@@ -63,3 +63,12 @@ body {
   background-color: #275360;
   color: #eae6f4;
 }
+
+/* media queries but I didn't get to finish these as yet*/
+@Media screen and (max-width: 575px) {
+  .col-md-1 {
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+}
