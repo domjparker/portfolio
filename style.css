@@ -1,5 +1,13 @@
 body {
   font-family: "Jost", sans-serif;
+  background-color:
+   /* #a6c3e1 */
+  /* #b9d1ed */
+  /* #99b0cf */
+  /* #7499b3 */
+  #53778d
+  /* 2c566e */
+  ;
 }
 
 /* Navigation */
@@ -19,6 +27,7 @@ body {
   color: #eae6f4;
 }
 
+/* Hamburger color changed for default, but need to debug loss functionality when collapsed */
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(204,148,91)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -41,4 +50,17 @@ body {
 
 .section {
     color: #223843;
+
+}
+
+
+
+/* footer */
+.footer-custom {
+  background-color: #275360;
+  color: #eae6f4;
+}
+
+.footer.container {
+  color: ;
 }
