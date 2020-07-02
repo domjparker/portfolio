@@ -1,7 +1,11 @@
 body {
   font-family: "Jost", sans-serif;
-  background-color: #53778d;
   min-height: 100vh;
+  background-image: url("Assets/Images/brown-mountain-near-body-of-water-edited.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display:flex;
   flex-direction: column;
 }
@@ -44,9 +48,18 @@ body {
   color: #a6c3e1;
 }
 
+#coverIndex {
+  background-image: url("Assets/Images/brown-mountain-near-body-of-water-2336921.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 /* About Page/About Me section */
 .section {
-  background-color: #dfe8f1;
+  background-color: rgba(223,232,241, .5);
   color: #223843;
   font-size: large;
 }
@@ -57,7 +70,7 @@ body {
 
 /* Portfolio Page */
 .captionButtons {
-  background-color: ;#223843
+  background-color: rgba(223,232,241, .0);
 }
 
 /* Contact Page/Contact section */
