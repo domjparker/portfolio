@@ -14,6 +14,7 @@ body {
 
 .navbar-custom {
   background-color: #223843;
+  opacity: .9;
 }
 
 .nav.container {
@@ -48,13 +49,13 @@ body {
   color: #a6c3e1;
 }
 
-#coverIndex {
+/* #coverIndex {
   background-image: url("Assets/Images/brown-mountain-near-body-of-water-2336921.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 
 /* About Page/About Me section */
@@ -64,8 +65,19 @@ body {
   font-size: large;
 }
 
-.profileimage {
-  max-width: 40%;
+.profileImage {
+  max-width: 100%;
+}
+
+.icons {
+  font-size: 40px;
+  padding: 0;
+  color: #223843;
+  align-items: flex-end;
+}
+
+.icons:hover {
+  color: #275360;
 }
 
 /* Portfolio Page */
@@ -82,6 +94,7 @@ body {
 /* footer */
 .footer-custom {
   background-color: #275360;
+  opacity: .9;
   color: #eae6f4;
   margin-top: auto;
 }
