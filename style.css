@@ -98,6 +98,12 @@ p {
   background-color: rgba(223,232,241, .0);
 }
 
+.portIcons {
+  font-size: 20px;
+  padding: 0;
+  color: #223843;
+  /* align-items: flex-end; */
+}
 
 
 /* Contact Page/Contact section */
