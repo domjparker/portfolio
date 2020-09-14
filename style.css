@@ -105,6 +105,10 @@ p {
   /* align-items: flex-end; */
 }
 
+.portIcons:hover {
+  color: #275360;
+}
+
 
 /* Contact Page/Contact section */
 .btn-custom {
