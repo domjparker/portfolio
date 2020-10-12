@@ -64,6 +64,10 @@ body {
   font-size: large;
 }
 
+.card-title {
+  color: #223843;
+}
+
 p {
   color: #223843;
 }
@@ -116,12 +120,20 @@ p {
   color: #eae6f4;
 }
 
+.contact-invite {
+  color: #223843;
+}
+
 /* footer */
 .footer-custom {
   background-color: #275360;
   opacity: .9;
   color: #eae6f4;
   margin-top: auto;
+}
+
+.copyright {
+  color: #eae6f4;
 }
 
 /* media queries but I didn't get to finish these as yet*/
